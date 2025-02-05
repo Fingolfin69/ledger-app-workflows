@@ -28,9 +28,9 @@ jobs:
       - name: Clone ledger-app-database repository
         uses: actions/checkout@v4
         with:
-          repository: LedgerHQ/ledger-app-database
+          repository: Fingolfin69/ledger-app-database
           path: ./ledger-app-database
-          ref: main
+          ref: bn-add-sui-swap-support
 
       - name: Download manifest
         uses: actions/download-artifact@v4
